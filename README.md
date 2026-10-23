@@ -160,14 +160,3 @@ Kedua sketch Blynk masih memuat token dan kredensial WiFi langsung di dalam kode
 `secrets.h` lalu pindahkan nilainya ke sana sebelum repo dipublikasikan. Kalau token
 sudah pernah ter-commit, revoke di Blynk Console dan buat yang baru.
 
-## Mendorong ke GitHub
-
-```bash
-cd ETS
-git init
-git add .
-git commit -m "Praktikum Robotika ETS: progres lima modul"
-git branch -M main
-git remote add origin https://github.com/<username>/<nama-repo>.git
-git push -u origin main
-```
