@@ -1,0 +1,23 @@
+# Kredensial — jangan pernah di-commit
+secrets.h
+
+# Berkas sementara Word / Office
+~$*.docx
+~$*.xlsx
+*.tmp
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Arduino
+build/
+*.elf
+*.map
